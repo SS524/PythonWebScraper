@@ -11,7 +11,8 @@ from helper import helper_class
 custom_logger_obj = custom_logger_class("serverActivity.log", __name__)
 custom_logger = custom_logger_obj.create_custom_logger()
 
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 
 @app.route('/')
