@@ -124,3 +124,28 @@
 2023-03-22 12:06:54,402-INFO-server.py-We are now going to render all the flight details to our website
 2023-03-22 12:07:42,331-INFO-server.py-Airport data has been scraped from the website
 2023-03-22 12:07:42,331-INFO-server.py-The home page is going to be rendered now
+2023-03-23 01:10:46,042-INFO-application.py-Airport data has been scraped from the website
+2023-03-23 01:10:46,049-INFO-application.py-The home page is going to be rendered now
+2023-03-23 01:10:53,101-INFO-application.py-Form inputs are received
+2023-03-23 01:10:53,902-INFO-application.py-Airport data has been scraped
+2023-03-23 01:10:53,902-INFO-application.py-Sourc and destination are same
+2023-03-23 01:11:06,317-INFO-application.py-Form inputs are received
+2023-03-23 01:11:07,169-INFO-application.py-Airport data has been scraped
+2023-03-23 01:11:07,169-INFO-application.py-Source and destination are different
+2023-03-23 01:11:07,225-INFO-application.py-Source and destination airport codes have been identified
+2023-03-23 01:11:07,225-INFO-application.py-We are now going to scrape all the flights between source and destination
+2023-03-23 01:11:38,443-INFO-application.py-All the flight details have been fetched
+2023-03-23 01:11:38,444-INFO-application.py-We are now going to render all the flight details to our website
+2023-03-23 01:11:42,790-INFO-application.py-Airport data has been scraped from the website
+2023-03-23 01:11:42,790-INFO-application.py-The home page is going to be rendered now
+2023-03-23 01:12:00,402-INFO-application.py-Form inputs are received
+2023-03-23 01:12:01,202-INFO-application.py-Airport data has been scraped
+2023-03-23 01:12:01,202-INFO-application.py-Source and destination are different
+2023-03-23 01:12:01,202-INFO-application.py-Source and destination airport codes have been identified
+2023-03-23 01:12:01,202-INFO-application.py-We are now going to scrape all the flights between source and destination
+2023-03-23 01:12:19,103-INFO-application.py-All the flight details have been fetched
+2023-03-23 01:12:19,103-INFO-application.py-We are now going save this data to a cloud database, which is Datastax DB
+2023-03-23 01:12:19,494-INFO-application.py-Record is now inserted to the database table
+2023-03-23 01:12:19,494-INFO-application.py-We are now going to render all the flight details to our website
+2023-03-23 01:12:26,287-INFO-application.py-Airport data has been scraped from the website
+2023-03-23 01:12:26,287-INFO-application.py-The home page is going to be rendered now
