@@ -1,6 +1,7 @@
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from customLogger import custom_logger_class
 
@@ -29,7 +30,13 @@ class flight_extract_class:
 
     def fetch_list_of_flights(self):
         try:
-            driver = webdriver.Chrome()
+            user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+            chrome_options = Options()
+            chrome_options.add_argument(f'user-agent={user_agent}')
+            chrome_options.add_argument('--no-sandbox')
+            chrome_options.add_argument('--headless')
+            chrome_options.add_argument('--disable-dev-shm-usage')
+            driver = webdriver.Chrome(options=chrome_options)
             driver.get(self.url)
             sleep(8)
             custom_logger.info("Connection is established")

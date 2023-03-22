@@ -59,3 +59,68 @@
 2023-03-22 10:02:45,666-INFO-server.py-Form inputs are received
 2023-03-22 10:02:46,671-INFO-server.py-Airport data has been scraped
 2023-03-22 10:02:46,671-INFO-server.py-Sourc and destination are same
+2023-03-22 11:52:15,332-INFO-server.py-Airport data has been scraped from the website
+2023-03-22 11:52:15,365-INFO-server.py-The home page is going to be rendered now
+2023-03-22 11:52:39,645-INFO-server.py-Form inputs are received
+2023-03-22 11:52:40,769-INFO-server.py-Airport data has been scraped
+2023-03-22 11:52:40,769-INFO-server.py-Source and destination are different
+2023-03-22 11:52:40,772-INFO-server.py-Source and destination airport codes have been identified
+2023-03-22 11:52:40,772-INFO-server.py-We are now going to scrape all the flights between source and destination
+2023-03-22 11:53:00,811-INFO-server.py-All the flight details have been fetched
+2023-03-22 11:53:00,812-INFO-server.py-We are now going to render all the flight details to our website
+2023-03-22 11:53:26,909-INFO-server.py-Airport data has been scraped from the website
+2023-03-22 11:53:26,909-INFO-server.py-The home page is going to be rendered now
+2023-03-22 11:53:52,858-INFO-server.py-Form inputs are received
+2023-03-22 11:53:53,941-INFO-server.py-Airport data has been scraped
+2023-03-22 11:53:53,941-INFO-server.py-Source and destination are different
+2023-03-22 11:53:53,942-INFO-server.py-Source and destination airport codes have been identified
+2023-03-22 11:53:53,943-INFO-server.py-We are now going to scrape all the flights between source and destination
+2023-03-22 11:54:08,067-INFO-server.py-All the flight details have been fetched
+2023-03-22 11:54:08,067-INFO-server.py-We are now going to render all the flight details to our website
+2023-03-22 12:00:18,478-INFO-server.py-Airport data has been scraped from the website
+2023-03-22 12:00:18,479-INFO-server.py-The home page is going to be rendered now
+2023-03-22 12:00:47,077-INFO-server.py-Form inputs are received
+2023-03-22 12:00:48,160-INFO-server.py-Airport data has been scraped
+2023-03-22 12:00:48,160-INFO-server.py-Source and destination are different
+2023-03-22 12:00:48,160-INFO-server.py-Source and destination airport codes have been identified
+2023-03-22 12:00:48,161-INFO-server.py-We are now going to scrape all the flights between source and destination
+2023-03-22 12:01:05,805-INFO-server.py-All the flight details have been fetched
+2023-03-22 12:01:05,806-INFO-server.py-We are now going save this data to a cloud database, which is Datastax DB
+2023-03-22 12:01:06,166-INFO-server.py-Record is now inserted to the database table
+2023-03-22 12:01:06,166-INFO-server.py-We are now going to render all the flight details to our website
+2023-03-22 12:01:20,801-INFO-server.py-Airport data has been scraped from the website
+2023-03-22 12:01:20,802-INFO-server.py-The home page is going to be rendered now
+2023-03-22 12:01:36,709-INFO-server.py-Form inputs are received
+2023-03-22 12:01:37,666-INFO-server.py-Airport data has been scraped
+2023-03-22 12:01:37,667-INFO-server.py-Source and destination are different
+2023-03-22 12:01:37,668-INFO-server.py-Source and destination airport codes have been identified
+2023-03-22 12:01:37,668-INFO-server.py-We are now going to scrape all the flights between source and destination
+2023-03-22 12:01:54,246-INFO-server.py-All the flight details have been fetched
+2023-03-22 12:01:54,246-INFO-server.py-We are now going to render all the flight details to our website
+2023-03-22 12:01:58,981-INFO-server.py-Airport data has been scraped from the website
+2023-03-22 12:01:58,982-INFO-server.py-The home page is going to be rendered now
+2023-03-22 12:03:26,117-INFO-server.py-Form inputs are received
+2023-03-22 12:03:27,192-INFO-server.py-Airport data has been scraped
+2023-03-22 12:03:27,193-INFO-server.py-Sourc and destination are same
+2023-03-22 12:03:45,481-INFO-server.py-Form inputs are received
+2023-03-22 12:03:46,629-INFO-server.py-Airport data has been scraped
+2023-03-22 12:03:46,629-INFO-server.py-Source and destination are different
+2023-03-22 12:03:46,630-INFO-server.py-Source and destination airport codes have been identified
+2023-03-22 12:03:46,631-INFO-server.py-We are now going to scrape all the flights between source and destination
+2023-03-22 12:04:05,425-INFO-server.py-All the flight details have been fetched
+2023-03-22 12:04:05,426-INFO-server.py-We are now going save this data to a cloud database, which is Datastax DB
+2023-03-22 12:04:05,767-INFO-server.py-Record is now inserted to the database table
+2023-03-22 12:04:05,768-INFO-server.py-We are now going to render all the flight details to our website
+2023-03-22 12:06:01,727-INFO-server.py-Airport data has been scraped from the website
+2023-03-22 12:06:01,727-INFO-server.py-The home page is going to be rendered now
+2023-03-22 12:06:31,466-INFO-server.py-Form inputs are received
+2023-03-22 12:06:32,626-INFO-server.py-Airport data has been scraped
+2023-03-22 12:06:32,626-INFO-server.py-Source and destination are different
+2023-03-22 12:06:32,627-INFO-server.py-Source and destination airport codes have been identified
+2023-03-22 12:06:32,627-INFO-server.py-We are now going to scrape all the flights between source and destination
+2023-03-22 12:06:54,044-INFO-server.py-All the flight details have been fetched
+2023-03-22 12:06:54,045-INFO-server.py-We are now going save this data to a cloud database, which is Datastax DB
+2023-03-22 12:06:54,402-INFO-server.py-Record is now inserted to the database table
+2023-03-22 12:06:54,402-INFO-server.py-We are now going to render all the flight details to our website
+2023-03-22 12:07:42,331-INFO-server.py-Airport data has been scraped from the website
+2023-03-22 12:07:42,331-INFO-server.py-The home page is going to be rendered now

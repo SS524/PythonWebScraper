@@ -18,3 +18,27 @@
 2023-03-22 10:00:35,615-INFO-flightExtract.py-Connection is established
 2023-03-22 10:00:35,615-INFO-flightExtract.py-Scraping process is now going to be started
 2023-03-22 10:00:35,652-INFO-flightExtract.py-Scraping process is now completed
+2023-03-22 11:52:40,773-INFO-flightExtract.py-Variables are initialized to scrape the flight details
+2023-03-22 11:52:58,605-INFO-flightExtract.py-Connection is established
+2023-03-22 11:52:58,606-INFO-flightExtract.py-Scraping process is now going to be started
+2023-03-22 11:52:58,734-INFO-flightExtract.py-Scraping process is now completed
+2023-03-22 11:53:53,943-INFO-flightExtract.py-Variables are initialized to scrape the flight details
+2023-03-22 11:54:05,947-INFO-flightExtract.py-Connection is established
+2023-03-22 11:54:05,947-INFO-flightExtract.py-Scraping process is now going to be started
+2023-03-22 11:54:05,989-INFO-flightExtract.py-Scraping process is now completed
+2023-03-22 12:00:48,161-INFO-flightExtract.py-Variables are initialized to scrape the flight details
+2023-03-22 12:01:02,686-INFO-flightExtract.py-Connection is established
+2023-03-22 12:01:02,687-INFO-flightExtract.py-Scraping process is now going to be started
+2023-03-22 12:01:03,749-INFO-flightExtract.py-Scraping process is now completed
+2023-03-22 12:01:37,669-INFO-flightExtract.py-Variables are initialized to scrape the flight details
+2023-03-22 12:01:52,115-INFO-flightExtract.py-Connection is established
+2023-03-22 12:01:52,115-INFO-flightExtract.py-Scraping process is now going to be started
+2023-03-22 12:01:52,158-INFO-flightExtract.py-Scraping process is now completed
+2023-03-22 12:03:46,631-INFO-flightExtract.py-Variables are initialized to scrape the flight details
+2023-03-22 12:04:03,188-INFO-flightExtract.py-Connection is established
+2023-03-22 12:04:03,189-INFO-flightExtract.py-Scraping process is now going to be started
+2023-03-22 12:04:03,387-INFO-flightExtract.py-Scraping process is now completed
+2023-03-22 12:06:32,627-INFO-flightExtract.py-Variables are initialized to scrape the flight details
+2023-03-22 12:06:51,651-INFO-flightExtract.py-Connection is established
+2023-03-22 12:06:51,651-INFO-flightExtract.py-Scraping process is now going to be started
+2023-03-22 12:06:51,994-INFO-flightExtract.py-Scraping process is now completed
