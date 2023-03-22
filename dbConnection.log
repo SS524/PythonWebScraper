@@ -1,0 +1,16 @@
+2023-03-20 18:52:04,636-INFO-dbConnect.py-Database variables have been initialized
+2023-03-20 18:56:16,785-INFO-dbConnect.py-Database variables have been initialized
+2023-03-20 18:56:16,785-INFO-dbConnect.py-We are going to create database client
+2023-03-20 18:56:16,785-INFO-dbConnect.py-Database client is created
+2023-03-20 18:56:16,785-INFO-dbConnect.py-We are now going to insert record into the database
+2023-03-20 18:56:17,162-INFO-dbConnect.py-Record is now inserted
+2023-03-20 21:08:28,467-INFO-dbConnect.py-Database variables have been initialized
+2023-03-20 21:08:28,469-INFO-dbConnect.py-We are going to create database client
+2023-03-20 21:08:28,469-INFO-dbConnect.py-Database client is created
+2023-03-20 21:08:28,470-INFO-dbConnect.py-We are now going to insert record into the database
+2023-03-20 21:08:28,788-INFO-dbConnect.py-Record is now inserted
+2023-03-22 09:56:45,523-INFO-dbConnect.py-Database variables have been initialized
+2023-03-22 09:56:45,576-INFO-dbConnect.py-We are going to create database client
+2023-03-22 09:56:45,578-INFO-dbConnect.py-Database client is created
+2023-03-22 09:56:45,579-INFO-dbConnect.py-We are now going to insert record into the database
+2023-03-22 09:56:45,942-INFO-dbConnect.py-Record is now inserted

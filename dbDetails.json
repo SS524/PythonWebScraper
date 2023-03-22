@@ -1,0 +1,8 @@
+{
+    "ASTRA_DB_ID" : "6e8a9e6b-3538-4e2e-958d-8c1e07fda1aa",
+    "ASTRA_DB_REGION" : "asia-south1",
+    "ASTRA_DB_APPLICATION_TOKEN" : "AstraCS:TTXCrLQcmnwowTLzQjSAaeds:16bd69ed4ce3be68e5793a1b337566a096a72042ea1240d7220be0d06ce2de1f",
+    "ASTRA_DB_KEYSPACE" : "flightkeyspace",
+    "ASTRA_DB_COLLECTION" : "flightCollection"
+
+}

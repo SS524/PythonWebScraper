@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlightSearch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+    <style>
+        body {
+            background-color: rgb(159, 233, 233);
+        }
+
+        .card {
+            margin-left: 312px;
+            width: 500px;
+            align-items: center;
+            margin-top: 50px;
+            border-radius: 2rem;
+            border-color: black;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-body {
+            margin-right: 5px;
+            width: 450px;
+            text-align: center;
+        }
+
+        .form-label {
+            font-weight: bolder;
+
+            font-size: large;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">Get flight details</h1>
+    <div class="banner">
+
+        <div class="flightlogo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <i class="bi bi-airplane"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <h3>Search flights</h3>
+                        <hr>
+                    </div>
+
+                    <div class="card-body">
+                        <form action="/search" method="POST">
+                            <div class="form-group">
+                                <label class="form-label">Source</label>
+                                <select class="form-control" name="source" required>
+                                    {% for airports in list_of_airports %}
+                                    <option value="{{airports}}">{{airports}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Destination</label>
+                                <select class="form-control" name="destination" required>
+                                    {% for airports in list_of_airports %}
+                                    <option value="{{airports}}">{{airports}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Date of Departure</label>
+                                <br>
+                                <input type="date" name="date" style="width: 411px;" id="datepicker" required>
+                            </div>
+
+
+                            <input type="submit" class="btn btn-primary" value="Search">
+                            <input type="reset" class="btn btn-primary" value="Reset">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        {% if flag==0 %}
+        <h2 style="text-align: center;">Source and destination are same</h2>
+        {% endif %}
+    </div>
+
+    <script language="javascript">
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0');
+        var yyyy = today.getFullYear();
+
+        today = yyyy + '-' + mm + '-' + dd;
+        $('#datepicker').attr('min', today);
+    </script>
+
+</body>
+
+</html>
