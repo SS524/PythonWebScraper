@@ -1,68 +1,60 @@
-2023-03-23 09:44:53,185-INFO-customLogger.py-Variables are initialized for creating custom logger
-2023-03-23 09:44:53,186-INFO-customLogger.py-Custom logger level has been set
-2023-03-23 09:44:53,187-INFO-customLogger.py-Custom logger destination file has been declared
-2023-03-23 09:44:53,187-INFO-customLogger.py-Custom logger formatting has been done
-2023-03-23 09:44:53,187-INFO-customLogger.py-Custom logger has been successfully created
-2023-03-23 09:44:53,333-INFO-customLogger.py-Variables are initialized for creating custom logger
-2023-03-23 09:44:53,333-INFO-customLogger.py-Custom logger level has been set
-2023-03-23 09:44:53,334-INFO-customLogger.py-Custom logger destination file has been declared
-2023-03-23 09:44:53,334-INFO-customLogger.py-Custom logger formatting has been done
-2023-03-23 09:44:53,334-INFO-customLogger.py-Custom logger has been successfully created
-2023-03-23 09:44:53,340-INFO-customLogger.py-Variables are initialized for creating custom logger
-2023-03-23 09:44:53,340-INFO-customLogger.py-Custom logger level has been set
-2023-03-23 09:44:53,340-INFO-customLogger.py-Custom logger destination file has been declared
-2023-03-23 09:44:53,340-INFO-customLogger.py-Custom logger formatting has been done
-2023-03-23 09:44:53,341-INFO-customLogger.py-Custom logger has been successfully created
-2023-03-23 09:44:53,341-INFO-customLogger.py-Variables are initialized for creating custom logger
-2023-03-23 09:44:53,341-INFO-customLogger.py-Custom logger level has been set
-2023-03-23 09:44:53,341-INFO-customLogger.py-Custom logger destination file has been declared
-2023-03-23 09:44:53,342-INFO-customLogger.py-Custom logger formatting has been done
-2023-03-23 09:44:53,342-INFO-customLogger.py-Custom logger has been successfully created
-2023-03-23 09:44:53,342-INFO-customLogger.py-Variables are initialized for creating custom logger
-2023-03-23 09:44:53,342-INFO-customLogger.py-Custom logger level has been set
-2023-03-23 09:44:53,342-INFO-customLogger.py-Custom logger destination file has been declared
-2023-03-23 09:44:53,342-INFO-customLogger.py-Custom logger formatting has been done
-2023-03-23 09:44:53,342-INFO-customLogger.py-Custom logger has been successfully created
-2023-03-23 09:44:53,370-WARNING-_internal.py- * Debugger is active!
-2023-03-23 09:44:53,373-INFO-_internal.py- * Debugger PIN: 118-453-245
-2023-03-23 09:45:09,371-INFO-airportExtract.py-The URL to scrape the airports data, has been set
-2023-03-23 09:45:10,497-INFO-airportExtract.py-Connection established
-2023-03-23 09:45:10,823-INFO-airportExtract.py-Scraping process is now going to be started
-2023-03-23 09:45:10,861-INFO-airportExtract.py-Scraping is now completed
-2023-03-23 09:45:10,862-INFO-application.py-Airport data has been scraped from the website
-2023-03-23 09:45:10,874-INFO-application.py-The home page is going to be rendered now
-2023-03-23 09:45:10,891-INFO-_internal.py-127.0.0.1 - - [23/Mar/2023 09:45:10] "GET / HTTP/1.1" 200 -
-2023-03-23 09:45:11,893-INFO-_internal.py-127.0.0.1 - - [23/Mar/2023 09:45:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2023-03-23 09:45:54,222-INFO-application.py-Form inputs are received
-2023-03-23 09:45:54,223-INFO-airportExtract.py-The URL to scrape the airports data, has been set
-2023-03-23 09:45:55,234-INFO-airportExtract.py-Connection established
-2023-03-23 09:45:55,503-INFO-airportExtract.py-Scraping process is now going to be started
-2023-03-23 09:45:55,546-INFO-airportExtract.py-Scraping is now completed
-2023-03-23 09:45:55,546-INFO-application.py-Airport data has been scraped
-2023-03-23 09:45:55,546-INFO-application.py-Source and destination are different
-2023-03-23 09:45:55,546-INFO-helper.py-Key is found in dictionary based on the value
-2023-03-23 09:45:55,546-INFO-helper.py-Key is found in dictionary based on the value
-2023-03-23 09:45:55,546-INFO-application.py-Source and destination airport codes have been identified
-2023-03-23 09:45:55,550-INFO-application.py-We are now going to scrape all the flights between source and destination
-2023-03-23 09:45:55,551-INFO-flightExtract.py-Variables are initialized to scrape the flight details
-2023-03-23 09:46:17,860-INFO-flightExtract.py-Connection is established
-2023-03-23 09:46:17,860-INFO-flightExtract.py-Scraping process is now going to be started
-2023-03-23 09:46:18,203-INFO-flightExtract.py-Scraping process is now completed
-2023-03-23 09:46:20,270-INFO-application.py-All the flight details have been fetched
-2023-03-23 09:46:20,271-INFO-application.py-We are now going save this data to a cloud database, which is Datastax DB
-2023-03-23 09:46:20,273-INFO-dbConnect.py-Database variables have been initialized
-2023-03-23 09:46:20,274-INFO-dbConnect.py-We are going to create database client
-2023-03-23 09:46:20,274-INFO-dbConnect.py-Database client is created
-2023-03-23 09:46:20,274-INFO-dbConnect.py-We are now going to insert record into the database
-2023-03-23 09:46:20,274-INFO-helper.py-List of dictionaries got converted into a dictionary
-2023-03-23 09:46:20,611-INFO-dbConnect.py-Record is now inserted
-2023-03-23 09:46:20,611-INFO-application.py-Record is now inserted to the database table
-2023-03-23 09:46:20,612-INFO-application.py-We are now going to render all the flight details to our website
-2023-03-23 09:46:20,722-INFO-_internal.py-127.0.0.1 - - [23/Mar/2023 09:46:20] "POST /search HTTP/1.1" 200 -
-2023-03-23 10:20:49,327-INFO-airportExtract.py-The URL to scrape the airports data, has been set
-2023-03-23 10:20:50,651-INFO-airportExtract.py-Connection established
-2023-03-23 10:20:50,896-INFO-airportExtract.py-Scraping process is now going to be started
-2023-03-23 10:20:50,923-INFO-airportExtract.py-Scraping is now completed
-2023-03-23 10:20:50,923-INFO-application.py-Airport data has been scraped from the website
-2023-03-23 10:20:50,927-INFO-application.py-The home page is going to be rendered now
-2023-03-23 10:20:50,930-INFO-_internal.py-127.0.0.1 - - [23/Mar/2023 10:20:50] "GET / HTTP/1.1" 200 -
+2023-03-23 11:01:56,399-INFO-customLogger.py-Variables are initialized for creating custom logger
+2023-03-23 11:01:56,399-INFO-customLogger.py-Custom logger level has been set
+2023-03-23 11:01:56,399-INFO-customLogger.py-Custom logger destination file has been declared
+2023-03-23 11:01:56,399-INFO-customLogger.py-Custom logger formatting has been done
+2023-03-23 11:01:56,400-INFO-customLogger.py-Custom logger has been successfully created
+2023-03-23 11:01:56,509-INFO-customLogger.py-Variables are initialized for creating custom logger
+2023-03-23 11:01:56,509-INFO-customLogger.py-Custom logger level has been set
+2023-03-23 11:01:56,510-INFO-customLogger.py-Custom logger destination file has been declared
+2023-03-23 11:01:56,510-INFO-customLogger.py-Custom logger formatting has been done
+2023-03-23 11:01:56,510-INFO-customLogger.py-Custom logger has been successfully created
+2023-03-23 11:01:56,514-INFO-customLogger.py-Variables are initialized for creating custom logger
+2023-03-23 11:01:56,514-INFO-customLogger.py-Custom logger level has been set
+2023-03-23 11:01:56,514-INFO-customLogger.py-Custom logger destination file has been declared
+2023-03-23 11:01:56,515-INFO-customLogger.py-Custom logger formatting has been done
+2023-03-23 11:01:56,515-INFO-customLogger.py-Custom logger has been successfully created
+2023-03-23 11:01:56,515-INFO-customLogger.py-Variables are initialized for creating custom logger
+2023-03-23 11:01:56,515-INFO-customLogger.py-Custom logger level has been set
+2023-03-23 11:01:56,515-INFO-customLogger.py-Custom logger destination file has been declared
+2023-03-23 11:01:56,515-INFO-customLogger.py-Custom logger formatting has been done
+2023-03-23 11:01:56,515-INFO-customLogger.py-Custom logger has been successfully created
+2023-03-23 11:01:56,515-INFO-customLogger.py-Variables are initialized for creating custom logger
+2023-03-23 11:01:56,515-INFO-customLogger.py-Custom logger level has been set
+2023-03-23 11:01:56,516-INFO-customLogger.py-Custom logger destination file has been declared
+2023-03-23 11:01:56,516-INFO-customLogger.py-Custom logger formatting has been done
+2023-03-23 11:01:56,516-INFO-customLogger.py-Custom logger has been successfully created
+2023-03-23 11:01:56,541-WARNING-_internal.py- * Debugger is active!
+2023-03-23 11:01:56,544-INFO-_internal.py- * Debugger PIN: 118-453-245
+2023-03-23 11:02:04,635-INFO-airportExtract.py-The URL to scrape the airports data, has been set
+2023-03-23 11:02:05,954-INFO-airportExtract.py-Connection established
+2023-03-23 11:02:06,336-INFO-airportExtract.py-Scraping process is now going to be started
+2023-03-23 11:02:06,362-INFO-airportExtract.py-Scraping is now completed
+2023-03-23 11:02:06,362-INFO-application.py-Airport data has been scraped from the website
+2023-03-23 11:02:06,370-INFO-application.py-The home page is going to be rendered now
+2023-03-23 11:02:06,377-INFO-_internal.py-127.0.0.1 - - [23/Mar/2023 11:02:06] "GET / HTTP/1.1" 200 -
+2023-03-23 11:02:24,064-INFO-application.py-Form inputs are received
+2023-03-23 11:02:24,064-INFO-airportExtract.py-The URL to scrape the airports data, has been set
+2023-03-23 11:02:24,986-INFO-airportExtract.py-Connection established
+2023-03-23 11:02:25,301-INFO-airportExtract.py-Scraping process is now going to be started
+2023-03-23 11:02:25,330-INFO-airportExtract.py-Scraping is now completed
+2023-03-23 11:02:25,330-INFO-application.py-Airport data has been scraped
+2023-03-23 11:02:25,330-INFO-application.py-Source and destination are different
+2023-03-23 11:02:25,330-INFO-helper.py-Key is found in dictionary based on the value
+2023-03-23 11:02:25,330-INFO-helper.py-Key is found in dictionary based on the value
+2023-03-23 11:02:25,330-INFO-application.py-Source and destination airport codes have been identified
+2023-03-23 11:02:25,330-INFO-application.py-We are now going to scrape all the flights between source and destination
+2023-03-23 11:02:25,330-INFO-flightExtract.py-Variables are initialized to scrape the flight details
+2023-03-23 11:02:44,702-INFO-flightExtract.py-Connection is established
+2023-03-23 11:02:44,702-INFO-flightExtract.py-Scraping process is now going to be started
+2023-03-23 11:02:45,109-INFO-flightExtract.py-Scraping process is now completed
+2023-03-23 11:02:47,242-INFO-application.py-All the flight details have been fetched
+2023-03-23 11:02:47,243-INFO-application.py-We are now going save this data to a cloud database, which is Datastax DB
+2023-03-23 11:02:47,244-INFO-dbConnect.py-Database variables have been initialized
+2023-03-23 11:02:47,245-INFO-dbConnect.py-We are going to create database client
+2023-03-23 11:02:47,245-INFO-dbConnect.py-Database client is created
+2023-03-23 11:02:47,245-INFO-dbConnect.py-We are now going to insert record into the database
+2023-03-23 11:02:47,245-INFO-helper.py-List of dictionaries got converted into a dictionary
+2023-03-23 11:02:47,580-INFO-dbConnect.py-Record is now inserted
+2023-03-23 11:02:47,580-INFO-application.py-Record is now inserted to the database table
+2023-03-23 11:02:47,580-INFO-application.py-We are now going to render all the flight details to our website
+2023-03-23 11:02:47,605-INFO-_internal.py-127.0.0.1 - - [23/Mar/2023 11:02:47] "POST /search HTTP/1.1" 200 -
