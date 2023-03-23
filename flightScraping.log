@@ -50,3 +50,7 @@
 2023-03-23 01:12:16,635-INFO-flightExtract.py-Connection is established
 2023-03-23 01:12:16,636-INFO-flightExtract.py-Scraping process is now going to be started
 2023-03-23 01:12:17,063-INFO-flightExtract.py-Scraping process is now completed
+2023-03-23 09:45:55,551-INFO-flightExtract.py-Variables are initialized to scrape the flight details
+2023-03-23 09:46:17,860-INFO-flightExtract.py-Connection is established
+2023-03-23 09:46:17,860-INFO-flightExtract.py-Scraping process is now going to be started
+2023-03-23 09:46:18,203-INFO-flightExtract.py-Scraping process is now completed

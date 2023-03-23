@@ -134,3 +134,15 @@
 2023-03-23 01:12:26,162-INFO-airportExtract.py-Connection established
 2023-03-23 01:12:26,275-INFO-airportExtract.py-Scraping process is now going to be started
 2023-03-23 01:12:26,287-INFO-airportExtract.py-Scraping is now completed
+2023-03-23 09:45:09,371-INFO-airportExtract.py-The URL to scrape the airports data, has been set
+2023-03-23 09:45:10,497-INFO-airportExtract.py-Connection established
+2023-03-23 09:45:10,823-INFO-airportExtract.py-Scraping process is now going to be started
+2023-03-23 09:45:10,861-INFO-airportExtract.py-Scraping is now completed
+2023-03-23 09:45:54,223-INFO-airportExtract.py-The URL to scrape the airports data, has been set
+2023-03-23 09:45:55,234-INFO-airportExtract.py-Connection established
+2023-03-23 09:45:55,503-INFO-airportExtract.py-Scraping process is now going to be started
+2023-03-23 09:45:55,546-INFO-airportExtract.py-Scraping is now completed
+2023-03-23 10:20:49,327-INFO-airportExtract.py-The URL to scrape the airports data, has been set
+2023-03-23 10:20:50,651-INFO-airportExtract.py-Connection established
+2023-03-23 10:20:50,896-INFO-airportExtract.py-Scraping process is now going to be started
+2023-03-23 10:20:50,923-INFO-airportExtract.py-Scraping is now completed

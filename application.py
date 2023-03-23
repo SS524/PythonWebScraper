@@ -50,7 +50,7 @@ def flight_search():
         try:
             if source == destination:
                 flag = 0
-                custom_logger.info("Sourc and destination are same")
+                custom_logger.info("Source and destination are same")
                 return render_template("index.html",
                                         list_of_airports=list_of_airports,
                                         flag=flag)
