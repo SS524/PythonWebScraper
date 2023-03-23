@@ -1,5 +1,6 @@
 import json
 from flask import Flask, render_template, request
+from flask_cors import CORS,cross_origin
 from airportExtract import airports_extract_class
 from flightExtract import flight_extract_class
 from customLogger import custom_logger_class
@@ -15,7 +16,8 @@ application = Flask(__name__)
 app=application
 
 
-@app.route('/')
+@app.route("/", methods=["GET"])
+@cross_origin()
 def index():
     try:
         airport_extract_obj = airports_extract_class()
@@ -30,6 +32,7 @@ def index():
 
 
 @app.route("/search",methods=["POST","GET"])
+@cross_origin()
 def flight_search():
     if request.method=="POST":
         try:
@@ -86,7 +89,8 @@ def flight_search():
             custom_logger.error(str(e))
     else:
         try:
-            return render_template("index.html")
+            return render_template("index.html",
+                                   list_of_airports=list_of_airports)
         except Exception as e:
             custom_logger.error(str(e))
 
