@@ -186,3 +186,22 @@
 2023-03-23 11:02:47,243-INFO-application.py-We are now going save this data to a cloud database, which is Datastax DB
 2023-03-23 11:02:47,580-INFO-application.py-Record is now inserted to the database table
 2023-03-23 11:02:47,580-INFO-application.py-We are now going to render all the flight details to our website
+2023-03-23 13:47:52,289-INFO-application.py-Airport data has been scraped from the website
+2023-03-23 13:47:52,289-INFO-application.py-The home page is going to be rendered now
+2023-03-23 13:48:07,052-ERROR-application.py-local variable 'list_of_airports' referenced before assignment
+2023-03-23 13:52:00,541-INFO-application.py-Airport data has been scraped from the website
+2023-03-23 13:52:00,541-INFO-application.py-The home page is going to be rendered now
+2023-03-23 13:52:34,895-INFO-application.py-Form inputs are received
+2023-03-23 13:52:35,680-INFO-application.py-Airport data has been scraped
+2023-03-23 13:52:35,680-INFO-application.py-Source and destination are different
+2023-03-23 13:52:35,734-INFO-application.py-Source and destination airport codes have been identified
+2023-03-23 13:52:35,734-INFO-application.py-We are now going to scrape all the flights between source and destination
+2023-03-23 13:52:54,210-INFO-application.py-All the flight details have been fetched
+2023-03-23 13:52:54,211-INFO-application.py-We are now going save this data to a cloud database, which is Datastax DB
+2023-03-23 13:52:54,683-INFO-application.py-Record is now inserted to the database table
+2023-03-23 13:52:54,683-INFO-application.py-We are now going to render all the flight details to our website
+2023-03-23 13:54:11,887-INFO-application.py-Airport data has been scraped from the website
+2023-03-23 13:54:11,887-INFO-application.py-The home page is going to be rendered now
+2023-03-23 13:54:28,347-INFO-application.py-Form inputs are received
+2023-03-23 13:54:29,349-INFO-application.py-Airport data has been scraped
+2023-03-23 13:54:29,349-INFO-application.py-Source and destination are same

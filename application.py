@@ -67,18 +67,18 @@ def flight_search():
                 flight_extract_obj = flight_extract_class(source_airport_code,destination_airport_code,date)
                 list_of_flights = flight_extract_obj.fetch_list_of_flights()
                 custom_logger.info("All the flight details have been fetched")
-                if len(list_of_flights) != 0:
-                    custom_logger.info("We are now going save this data to a cloud database, which is Datastax DB")
-                    f = open("dbDetails.json")
-                    data = json.load(f)
-                    db_client = connect_with_db(data["ASTRA_DB_ID"],
-                                                data["ASTRA_DB_REGION"],
-                                                data["ASTRA_DB_APPLICATION_TOKEN"])
+                # if len(list_of_flights) != 0:
+                #     custom_logger.info("We are now going save this data to a cloud database, which is Datastax DB")
+                #     f = open("dbDetails.json")
+                #     data = json.load(f)
+                #     db_client = connect_with_db(data["ASTRA_DB_ID"],
+                #                                 data["ASTRA_DB_REGION"],
+                #                                 data["ASTRA_DB_APPLICATION_TOKEN"])
                 
-                    db_client.createJSONAstra(data["ASTRA_DB_KEYSPACE"],
-                                              data["ASTRA_DB_COLLECTION"],
-                                              list_of_flights)
-                    custom_logger.info("Record is now inserted to the database table")
+                #     db_client.createJSONAstra(data["ASTRA_DB_KEYSPACE"],
+                #                               data["ASTRA_DB_COLLECTION"],
+                #                               list_of_flights)
+                #     custom_logger.info("Record is now inserted to the database table")
 
                 custom_logger.info("We are now going to render all the flight details to our website")
                 return render_template("result.html",
@@ -89,6 +89,9 @@ def flight_search():
             custom_logger.error(str(e))
     else:
         try:
+            airport_extract_obj = airports_extract_class()
+            airport_dictionary = airport_extract_obj.fetch_list_of_airports()
+            list_of_airports = list(airport_dictionary.values())
             return render_template("index.html",
                                    list_of_airports=list_of_airports)
         except Exception as e:
